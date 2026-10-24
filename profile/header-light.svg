@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="240" viewBox="0 0 1100 240" role="img" aria-labelledby="title desc">
+  <title id="title">Mike — Useful ideas. Working software.</title>
+  <desc id="desc">A typographic cover for Mike's AI products and developer tools.</desc>
+  <rect width="1100" height="240" fill="#f6f8fa"/>
+  <text x="46" y="173" fill="#0969da" font-family="Arial, Helvetica, sans-serif" font-size="156" font-weight="700" letter-spacing="-7">Mike</text>
+  <g fill="#1f2328" font-family="Arial, Helvetica, sans-serif" font-size="43" font-weight="600">
+    <text x="508" y="105">Useful ideas.</text>
+    <text x="508" y="163">Working software.</text>
+  </g>
+</svg>
