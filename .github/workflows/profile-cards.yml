@@ -1,0 +1,65 @@
+name: Update profile cards
+
+on:
+  schedule:
+    - cron: '23 13 * * *'
+  workflow_dispatch:
+  push:
+    paths:
+      - '.github/workflows/profile-cards.yml'
+
+permissions: {}
+
+concurrency:
+  group: profile-cards
+  cancel-in-progress: false
+
+jobs:
+  update-cards:
+    if: github.ref == format('refs/heads/{0}', github.event.repository.default_branch)
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    permissions:
+      contents: write
+    defaults:
+      run:
+        shell: bash
+    steps:
+      - name: Check out the default branch
+        uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803 # v6
+        with:
+          ref: ${{ github.event.repository.default_branch }}
+
+      - name: Generate public activity card
+        uses: stats-organization/github-readme-stats-action@2c498845f71017821efaad14293ebc736156ef21 # v2.1.0
+        with:
+          card: stats
+          options: username=${{ github.repository_owner }}&show_icons=true&hide_rank=true&theme=transparent&hide_border=false
+          path: profile/stats.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+          core_version: '2.2.0'
+          fail_on_error: 'true'
+
+      - name: Generate public language card
+        uses: stats-organization/github-readme-stats-action@2c498845f71017821efaad14293ebc736156ef21 # v2.1.0
+        with:
+          card: top-langs
+          options: username=${{ github.repository_owner }}&layout=compact&langs_count=6&exclude_repo=${{ github.event.repository.name }}&theme=transparent&hide_border=false
+          path: profile/top-langs.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+          core_version: '2.2.0'
+          fail_on_error: 'true'
+
+      - name: Commit changed cards
+        env:
+          DEFAULT_BRANCH: ${{ github.event.repository.default_branch }}
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -- profile/stats.svg profile/top-langs.svg
+          if git diff --cached --quiet; then
+            echo "Profile cards are already up to date."
+          else
+            git commit -m "chore: update profile cards"
+            git push origin "HEAD:${DEFAULT_BRANCH}"
+          fi
