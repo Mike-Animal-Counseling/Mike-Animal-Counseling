@@ -15,6 +15,15 @@ Building practical tools for AI workflows, developer productivity, and everyday 
 | [AWS Lambda SLO Optimizer](https://github.com/Mike-Animal-Counseling/aws-lambda-slo-optimizer) | Benchmarks Lambda configurations to find cheaper options that meet latency targets. | Python |
 | [Voice Traffic Cop](https://github.com/Mike-Animal-Counseling/Voice-Traffic-Cop) | A cozy browser traffic game controlled by humming, singing, or a keyboard. | TypeScript |
 
+## GitHub activity
+
+![Public GitHub activity](./profile/stats.svg)
+![Languages across public repositories](./profile/top-langs.svg)
+
+Updated daily from public GitHub data. Language distribution describes code in repositories, not proficiency.
+
+[How the cards update](./docs/PROFILE_CARDS.md) · [Update status](https://github.com/Mike-Animal-Counseling/Mike-Animal-Counseling/actions/workflows/profile-cards.yml)
+
 ## Working across
 
 Python · TypeScript / JavaScript · Rust · Go · MCP · AWS
