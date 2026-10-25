@@ -4,13 +4,13 @@
   <img src="./profile/header-light.svg" alt="Mike — Useful ideas. Working software." width="1100">
 </picture>
 
-# AI products and developer tools
+# Explore widely. Build with purpose.
 
-From companion apps and evidence-based review tools to real-time APIs and desktop utilities, I like turning an idea into something people can use.
+I'm interested in how technology expands what people can understand, create, and accomplish. I value independent thinking, thoughtful design, and work that grows more useful over time.
 
-把想法做成能用的产品，再把背后的系统打磨好。
+保持好奇，独立思考，让技术创造更长久的价值。
 
-[Selected projects](#selected-projects) · [Developer tools](#developer-tools) · [Activity](#activity) · [All repositories](https://github.com/Mike-Animal-Counseling?tab=repositories)
+[Selected projects](#selected-projects) · [Developer tools](#developer-tools) · [Working with](#working-with)
 
 ## Selected projects
 
@@ -94,21 +94,12 @@ Self-hosted memory for AI coding assistants. Save project decisions and conventi
 
 ## Working with
 
-- **Products:** React, Next.js, TypeScript, and JavaScript.
-- **Services and data:** Python, FastAPI, Node.js, Express, PostgreSQL, and MongoDB.
-- **Desktop and delivery:** Rust, Tauri, Docker, GitHub Actions, and MCP.
+- **Languages:** Python, TypeScript, JavaScript, Rust, Go, and SQL.
+- **Web, mobile, and desktop:** React, Next.js, React Native, Expo, Vite, Tailwind CSS, and Tauri.
+- **APIs and services:** FastAPI, Node.js, Express, Socket.IO, Celery, and OAuth 2.0.
+- **Data:** PostgreSQL, pgvector, MongoDB, Redis, SQLite, SQLAlchemy, and Prisma.
+- **AI and retrieval:** MCP, OpenRouter, PyTorch, Hugging Face Transformers, Sentence Transformers, and RAG.
+- **Cloud and delivery:** AWS Lambda, CloudWatch, AWS SAM, Docker, Docker Compose, GitHub Actions, and Vercel.
+- **Quality:** Playwright, pytest, Vitest, Jest, Ruff, mypy, and CodeQL.
 
-## Activity
-
-<a href="https://github.com/Mike-Animal-Counseling">
-  <img src="./profile/stats.svg" alt="Public GitHub activity" width="440">
-</a>
-<a href="https://github.com/Mike-Animal-Counseling?tab=repositories">
-  <img src="./profile/top-langs.svg" alt="Languages across public repositories" width="320">
-</a>
-
-Updated daily from public GitHub data. Language distribution describes repository code, not proficiency.
-
-[![Profile card updates](https://github.com/Mike-Animal-Counseling/Mike-Animal-Counseling/actions/workflows/profile-cards.yml/badge.svg)](https://github.com/Mike-Animal-Counseling/Mike-Animal-Counseling/actions/workflows/profile-cards.yml)
-
-[How the cards update](./docs/PROFILE_CARDS.md) · [Explore all repositories](https://github.com/Mike-Animal-Counseling?tab=repositories)
+[Explore all repositories](https://github.com/Mike-Animal-Counseling?tab=repositories)

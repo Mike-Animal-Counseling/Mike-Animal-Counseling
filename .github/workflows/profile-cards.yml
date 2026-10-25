@@ -1,12 +1,7 @@
 name: Update profile cards
 
 on:
-  schedule:
-    - cron: '23 13 * * *'
   workflow_dispatch:
-  push:
-    paths:
-      - '.github/workflows/profile-cards.yml'
 
 permissions: {}
 
