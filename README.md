@@ -10,7 +10,7 @@ I'm interested in how technology expands what people can understand, create, and
 
 保持好奇，独立思考，让技术创造更长久的价值。
 
-[Selected projects](#selected-projects) · [Developer tools](#developer-tools) · [Working with](#working-with)
+[Selected projects](#selected-projects) · [Developer tools](#developer-tools) · [Skill set](#skill-set)
 
 ## Selected projects
 
@@ -92,14 +92,16 @@ Self-hosted memory for AI coding assistants. Save project decisions and conventi
 
 [Source and setup](https://github.com/Mike-Animal-Counseling/porter)
 
-## Working with
+## Skill set
 
 - **Languages:** Python, TypeScript, JavaScript, Rust, Go, and SQL.
-- **Web, mobile, and desktop:** React, Next.js, React Native, Expo, Vite, Tailwind CSS, and Tauri.
-- **APIs and services:** FastAPI, Node.js, Express, Socket.IO, Celery, and OAuth 2.0.
-- **Data:** PostgreSQL, pgvector, MongoDB, Redis, SQLite, SQLAlchemy, and Prisma.
-- **AI and retrieval:** MCP, OpenRouter, PyTorch, Hugging Face Transformers, Sentence Transformers, and RAG.
-- **Cloud and delivery:** AWS Lambda, CloudWatch, AWS SAM, Docker, Docker Compose, GitHub Actions, and Vercel.
-- **Quality:** Playwright, pytest, Vitest, Jest, Ruff, mypy, and CodeQL.
+- **Web, mobile, and desktop:** React, Next.js, React Native, Expo, Vite, Tailwind CSS, Tauri, and Streamlit.
+- **Backend and APIs:** FastAPI, Node.js, Express, and Socket.IO.
+- **Messaging and caching:** Kafka, Redis, and Celery.
+- **Databases and ORM:** PostgreSQL, MongoDB, SQLite, pgvector, SQLAlchemy, Prisma, Mongoose, and Alembic.
+- **AI and retrieval:** MCP, RAG, OpenRouter, PyTorch, Hugging Face Transformers, Sentence Transformers, NumPy, and Safetensors.
+- **Cloud and delivery:** AWS Lambda, AWS SAM, IAM, CloudWatch, boto3, Docker, Docker Compose, GitHub Actions, and Vercel.
+- **Identity and validation:** OAuth 2.0, JWT, Clerk, Pydantic, and Zod.
+- **Testing and observability:** Playwright, pytest, Vitest, Jest, Supertest, Ruff, mypy, CodeQL, and Sentry.
 
 [Explore all repositories](https://github.com/Mike-Animal-Counseling?tab=repositories)
