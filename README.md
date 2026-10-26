@@ -94,11 +94,15 @@ Self-hosted memory for AI coding assistants. Save project decisions and conventi
 
 ## Skill set
 
-- **Languages:** Python, TypeScript / JavaScript, Rust, Go, SQL.
-- **Interfaces:** React, Next.js, React Native, Tauri.
-- **Backend & data:** FastAPI, Node.js, PostgreSQL, MongoDB, Redis.
-- **AI systems:** MCP, RAG, pgvector, PyTorch, Hugging Face.
-- **Cloud & delivery:** AWS Lambda, Docker, GitHub Actions.
-- **Testing:** Playwright, pytest, Vitest.
+| Area | Technologies |
+| --- | --- |
+| **Languages** | Python, TypeScript / JavaScript, Rust, Go, SQL |
+| **Web, mobile & desktop** | React, Next.js, React Native / Expo, Tailwind CSS, Tauri |
+| **Backend & messaging** | FastAPI, Node.js / Express, Socket.IO, Redis, Celery |
+| **Databases & ORM** | PostgreSQL, MongoDB, SQLite, SQLAlchemy, Prisma, Mongoose |
+| **AI & retrieval** | MCP, RAG, pgvector, OpenRouter, PyTorch, Hugging Face Transformers |
+| **Cloud & delivery** | AWS Lambda, IAM, CloudWatch, Docker / Compose, GitHub Actions, Vercel |
+| **Auth & validation** | OAuth 2.0, JWT, Clerk, Pydantic, Zod |
+| **Testing & quality** | Playwright, pytest, Vitest, Jest, Ruff, mypy, CodeQL |
 
 [Explore all repositories](https://github.com/Mike-Animal-Counseling?tab=repositories)
