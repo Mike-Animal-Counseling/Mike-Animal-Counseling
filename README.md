@@ -12,7 +12,7 @@ I'm interested in how technology expands what people can understand, create, and
 
 ## Selected Projects
 
-These are the six projects pinned on my profile, spanning product prototypes, data workflows, and developer tools.
+Six projects spanning AI products, data workflows, cloud optimization, and developer tools.
 
 ### [PawCompanion](https://github.com/Mike-Animal-Counseling/PawCompanion)
 
@@ -50,13 +50,19 @@ A discovery hub that turns builder news into a daily reading list. It collects t
 
 [Source](https://github.com/Mike-Animal-Counseling/HotTopicHub) · [Ranking implementation](https://github.com/Mike-Animal-Counseling/HotTopicHub/blob/master/backend/app/services/daily_top_signals_service.py)
 
-### [Readily Compliance Review](https://github.com/Mike-Animal-Counseling/Readily-Compilance-Tool)
+### [Laya × Jev](https://github.com/Mike-Animal-Counseling/laya-jev-lab)
 
-A compliance review MVP that extracts questions from audit PDFs and drafts Yes/No answers with page-level policy citations for analyst review. Reviewed results can be exported to CSV.
+A ticket classification toolkit that runs a fine-tuned Laya model locally or calls Jev through an API. Use the Python SDK, connect a helpdesk to the REST service, or work from a shared inbox.
 
-**Inside:** Next.js, TypeScript, Postgres, and Zod. Lexical and vector retrieval connect answers to policy passages, while structured output validation keeps model responses usable. Currently in private testing.
+**Inside:** Python, PyTorch, and Docker. Model adaptation and held-out comparison sit alongside workspace access controls, idempotent imports, and Zendesk sync. Source and Python package downloads are available.
 
-[Source](https://github.com/Mike-Animal-Counseling/Readily-Compilance-Tool) · [Retrieval implementation](https://github.com/Mike-Animal-Counseling/Readily-Compilance-Tool/blob/main/lib/rag/retrieval.ts)
+[Source](https://github.com/Mike-Animal-Counseling/laya-jev-lab) · [Model Card](https://github.com/Mike-Animal-Counseling/laya-jev-lab/blob/main/MODEL_CARD.md) · [Downloads](https://github.com/Mike-Animal-Counseling/laya-jev-lab/releases/latest)
+
+<details>
+  <summary>See the ticket inbox with synthetic data</summary>
+  <br>
+  <img src="https://raw.githubusercontent.com/Mike-Animal-Counseling/laya-jev-lab/main/docs/inbox.png" alt="Laya ticket inbox showing classification of a synthetic billing ticket" width="900" loading="lazy">
+</details>
 
 ### [CodexHalo](https://github.com/Mike-Animal-Counseling/CodexHalo)
 
@@ -72,13 +78,13 @@ A Windows companion that keeps Codex usage limits and token activity within sigh
   <img src="https://raw.githubusercontent.com/Mike-Animal-Counseling/CodexHalo/main/docs/assets/codexhalo-overview.png" alt="CodexHalo desktop HUD preview with synthetic demo data" width="900" loading="lazy">
 </details>
 
-### [Signals API](https://github.com/Mike-Animal-Counseling/signals-api)
+### [LambdaOpt](https://github.com/Mike-Animal-Counseling/aws-lambda-slo-optimizer)
 
-A signal pipeline combining authenticated REST endpoints with live dashboard updates. It brings API design, persistent storage, and event delivery together in one full-stack project.
+An AWS Lambda cost optimizer that recommends configurations against latency targets. Analyze benchmark results, CloudWatch metrics, and cold-start signals, or start with a local simulation that needs no AWS credentials.
 
-**Inside:** Express, MongoDB, Socket.IO, React, and Docker. Socket connections validate JWTs, use per-user rooms, and disconnect when tokens expire.
+**Inside:** Python, boto3, and CloudWatch. Cost models, Pareto analysis, and SLO risk scoring turn benchmark data into explainable configuration recommendations. Currently in beta.
 
-[Source](https://github.com/Mike-Animal-Counseling/signals-api) · [Server implementation](https://github.com/Mike-Animal-Counseling/signals-api/blob/main/backend/server.js)
+[Source](https://github.com/Mike-Animal-Counseling/aws-lambda-slo-optimizer) · [Quick Start](https://github.com/Mike-Animal-Counseling/aws-lambda-slo-optimizer#start-here) · [Recommendation Logic](https://github.com/Mike-Animal-Counseling/aws-lambda-slo-optimizer/blob/main/lambdaopt/recommend/slo_recommender.py)
 
 ## Developer Tools
 
@@ -99,7 +105,7 @@ Self-hosted memory for AI coding assistants. Save project decisions and conventi
 | **Backend & Messaging** | FastAPI, Node.js / Express, Socket.IO, Redis, Celery |
 | **Databases & ORM** | PostgreSQL, MongoDB, SQLite, SQLAlchemy, Prisma, Mongoose |
 | **AI & Retrieval** | MCP, RAG, pgvector, OpenRouter, PyTorch, Hugging Face Transformers |
-| **Cloud & Delivery** | AWS Lambda, IAM, CloudWatch, Docker / Compose, GitHub Actions, Vercel |
+| **Cloud & Delivery** | AWS Lambda, IAM, CloudWatch, boto3, Docker / Compose, GitHub Actions, Vercel |
 | **Auth & Validation** | OAuth 2.0, JWT, Clerk, Pydantic, Zod |
 | **Testing & Quality** | Playwright, pytest, Vitest, Jest, Ruff, mypy, CodeQL |
 
