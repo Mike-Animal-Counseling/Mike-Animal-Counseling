@@ -8,11 +8,9 @@
 
 I'm interested in how technology expands what people can understand, create, and accomplish. I value independent thinking, thoughtful design, and work that grows more useful over time.
 
-保持好奇，独立思考，让技术创造更长久的价值。
+[Selected Projects](#selected-projects) · [Developer Tools](#developer-tools) · [Skill Set](#skill-set)
 
-[Selected projects](#selected-projects) · [Developer tools](#developer-tools) · [Skill set](#skill-set)
-
-## Selected projects
+## Selected Projects
 
 These are the six projects pinned on my profile, spanning product prototypes, data workflows, and developer tools.
 
@@ -82,7 +80,7 @@ A signal pipeline combining authenticated REST endpoints with live dashboard upd
 
 [Source](https://github.com/Mike-Animal-Counseling/signals-api) · [Server implementation](https://github.com/Mike-Animal-Counseling/signals-api/blob/main/backend/server.js)
 
-## Developer tools
+## Developer Tools
 
 ### [Porter](https://github.com/Mike-Animal-Counseling/porter)
 
@@ -92,17 +90,17 @@ Self-hosted memory for AI coding assistants. Save project decisions and conventi
 
 [Source and setup](https://github.com/Mike-Animal-Counseling/porter)
 
-## Skill set
+## Skill Set
 
 | Area | Technologies |
 | --- | --- |
 | **Languages** | Python, TypeScript / JavaScript, Rust, Go, SQL |
-| **Web, mobile & desktop** | React, Next.js, React Native / Expo, Tailwind CSS, Tauri |
-| **Backend & messaging** | FastAPI, Node.js / Express, Socket.IO, Redis, Celery |
+| **Web, Mobile & Desktop** | React, Next.js, React Native / Expo, Tailwind CSS, Tauri |
+| **Backend & Messaging** | FastAPI, Node.js / Express, Socket.IO, Redis, Celery |
 | **Databases & ORM** | PostgreSQL, MongoDB, SQLite, SQLAlchemy, Prisma, Mongoose |
-| **AI & retrieval** | MCP, RAG, pgvector, OpenRouter, PyTorch, Hugging Face Transformers |
-| **Cloud & delivery** | AWS Lambda, IAM, CloudWatch, Docker / Compose, GitHub Actions, Vercel |
-| **Auth & validation** | OAuth 2.0, JWT, Clerk, Pydantic, Zod |
-| **Testing & quality** | Playwright, pytest, Vitest, Jest, Ruff, mypy, CodeQL |
+| **AI & Retrieval** | MCP, RAG, pgvector, OpenRouter, PyTorch, Hugging Face Transformers |
+| **Cloud & Delivery** | AWS Lambda, IAM, CloudWatch, Docker / Compose, GitHub Actions, Vercel |
+| **Auth & Validation** | OAuth 2.0, JWT, Clerk, Pydantic, Zod |
+| **Testing & Quality** | Playwright, pytest, Vitest, Jest, Ruff, mypy, CodeQL |
 
 [Explore all repositories](https://github.com/Mike-Animal-Counseling?tab=repositories)
