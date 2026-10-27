@@ -30,16 +30,16 @@ A pet companion prototype bringing character-based AI chat, pet browsing, bookin
 
 ### [Truna](https://github.com/Mike-Animal-Counseling/Truna_v0)
 
-An app can look finished while its critical user journeys still fail. Truna explores turning product requirements into controlled browser checks, execution evidence, and repair handoffs for coding agents.
+A deployed launch verification platform I designed and built for AI-built applications. Truna turns product requirements into controlled browser checks, evidence-backed findings, and repair handoffs for coding agents.
 
-**Inside:** The public showcase describes a Next.js, Express, Prisma, and Playwright architecture. The product is an active prototype; application source is maintained privately.
+**Inside:** TypeScript, Next.js, Express, Prisma, and Playwright. Reviewed verification plans connect browser execution with screenshots, network signals, risk analysis, and project-level launch reviews.
 
-[Public showcase](https://github.com/Mike-Animal-Counseling/Truna_v0) · [Try the demo](https://truna-frontend.vercel.app/)
+[Open Truna](https://truna-frontend.vercel.app/) · [Product and Architecture](https://github.com/Mike-Animal-Counseling/Truna_v0)
 
 <details>
   <summary>See the product interface</summary>
   <br>
-  <img src="https://raw.githubusercontent.com/Mike-Animal-Counseling/Truna_v0/main/truna-homepage.PNG" alt="Truna product showcase interface" width="900" loading="lazy">
+  <img src="https://raw.githubusercontent.com/Mike-Animal-Counseling/Truna_v0/main/truna-homepage.PNG" alt="Truna launch verification product interface" width="900" loading="lazy">
 </details>
 
 ### [HotTopicHub](https://github.com/Mike-Animal-Counseling/HotTopicHub)
