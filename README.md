@@ -5,9 +5,6 @@
   <img src="./profile/header-light.svg" alt="Mike. Useful ideas. Working software." width="1000">
 </picture>
 
-I build AI applications, Windows developer tools, and Python services. My work
-includes browser verification, local automation, and data workflows.
-
 ## Open Source Contributions
 
 Selected fixes and documentation merged upstream.
