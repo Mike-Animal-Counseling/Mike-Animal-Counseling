@@ -17,7 +17,7 @@ const projectNames = {
 };
 
 // Keep API-provided titles as text so markup in a title cannot alter the README.
-const plain = value => value.replace(/[&<>\[\]`*_\\:]/g, char => `&#${char.codePointAt(0)};`);
+const plain = value => value.replace(/[&<>|\[\]`*_\\:]/g, char => `&#${char.codePointAt(0)};`);
 const results = new Map();
 for (const item of pages.flatMap(page => page.items)) {
   const url = item.html_url;
@@ -34,7 +34,7 @@ for (const item of pages.flatMap(page => page.items)) {
   results.set(url, {
     mergedAt,
     repoKey,
-    row: `- **${plain(name)}** — ${plain(title.charAt(0).toUpperCase() + title.slice(1))} [#${number}](${url})`,
+    row: `| **${plain(name)}** | ${plain(title.charAt(0).toUpperCase() + title.slice(1))} [#${number}](${url}) |`,
   });
 }
 
@@ -57,7 +57,7 @@ if (startParts.length !== 2 || endParts?.length !== 2 || startParts[0].includes(
   throw new Error('Expected one ordered pair of upstream PR markers');
 }
 
-const updated = `${startParts[0]}${start}\n${rows.join('\n')}\n${end}${endParts[1]}`;
+const updated = `${startParts[0]}${start}\n| Project | Merged contribution |\n| --- | --- |\n${rows.join('\n')}\n${end}${endParts[1]}`;
 const activityCards = renderActivityCards([...results.values()]);
 if (readme !== updated) writeFileSync(readmePath, updated, 'utf8');
 for (const { name, svg } of activityCards) {
