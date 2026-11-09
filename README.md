@@ -35,5 +35,5 @@ Merged upstream PRs.
 
 **Languages & backend** · Python, TypeScript, Rust, Go, Java, FastAPI, Node.js, PostgreSQL, Redis, Kafka\
 **AI & agents** · PyTorch, Hugging Face, LangGraph, LangChain, LlamaIndex, MCP, RAG, pgvector\
-**Web & desktop** · React, Next.js, Tailwind CSS, Tauri\
-**Cloud & quality** · AWS EC2 / RDS / Lambda, Docker, GitHub Actions, Playwright
+**Web & desktop** · React, Next.js, Tailwind CSS, Tauri, React Native, Vite\
+**Cloud & quality** · AWS EC2 / RDS / Lambda, CloudWatch, Docker / Compose, GitHub Actions, Playwright, pytest
