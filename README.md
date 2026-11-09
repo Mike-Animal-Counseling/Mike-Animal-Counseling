@@ -33,7 +33,8 @@ Merged upstream PRs.
 
 ## Technologies
 
-**Languages & backend** · Python, TypeScript, Rust, Go, FastAPI, Node.js, PostgreSQL, Redis\
+**Languages** · Python, TypeScript, Java, Rust, Go\
+**Backend & messaging** · FastAPI, Node.js, PostgreSQL, Redis, Kafka, RabbitMQ, SQS\
 **AI & agents** · PyTorch, Hugging Face, LangGraph, LangChain, LlamaIndex, CrewAI, AutoGen, MCP, RAG, pgvector\
 **Web & desktop** · React, Next.js, Tailwind CSS, Tauri, React Native\
-**Infrastructure & quality** · AWS Lambda, CloudWatch, Docker / Compose, GitHub Actions, Playwright, pytest
+**Cloud & quality** · AWS EC2, AWS RDS, AWS Lambda, CloudWatch, Docker / Compose, GitHub Actions, Playwright, pytest
