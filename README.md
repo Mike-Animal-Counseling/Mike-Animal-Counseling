@@ -1,39 +1,36 @@
-<picture>
-  <source media="(max-width: 600px) and (prefers-color-scheme: dark)" srcset="./profile/source-cover-compact-dark.svg">
-  <source media="(max-width: 600px)" srcset="./profile/source-cover-compact.svg">
-  <source media="(prefers-color-scheme: dark)" srcset="./profile/source-cover-dark.svg">
-  <img src="./profile/source-cover.svg" alt="Projects &amp; open source">
-</picture>
+# Projects & open source
+
+**Backend systems · Developer tools · AI infrastructure**
+
+I like being able to trace a forecast back to its events or a recommendation back to its measurements.
 
 ## Selected Projects
 
-| Project | Engineering highlight |
-| :--- | :--- |
-| **[Chrono](https://github.com/Mike-Animal-Counseling/chrono-public)** | Pre-launch planning workspace with event-sourced replay, isolated scenario branches, and deterministic delivery forecasts. |
-| **[PawCompanion](https://github.com/Mike-Animal-Counseling/paw-companion)** | Consumer companion prototype with atomic slot reservations, separate guest and partner workflows, and a safety review queue. |
-| **[Codex Halo](https://github.com/Mike-Animal-Counseling/codex-halo)** | Rust and Tauri Windows HUD for Codex quotas, with local session-log parsing and deduplicated per-model usage. |
+**[Chrono](https://github.com/Mike-Animal-Counseling/chrono-public)**\
+Project planning workspace with an append-only event log for timeline replay, isolated scenarios, and deterministic delivery forecasts. *Pre-launch preview.*
+
+**[PawCompanion](https://github.com/Mike-Animal-Counseling/paw-companion)**\
+Companion chat and booking prototype with atomic slot reservations, separate guest and partner workflows, and a safety review queue.
+
+**[Codex Halo](https://github.com/Mike-Animal-Counseling/codex-halo)**\
+Rust and Tauri Windows HUD for Codex quotas and reset times. Parses and deduplicates local session logs for per-model usage.
+
+**[LambdaOpt](https://github.com/Mike-Animal-Counseling/aws-lambda-slo-optimizer)**\
+Uses benchmarks and CloudWatch data to evaluate AWS Lambda costs against p95 and p99 latency targets. A local simulator runs without AWS credentials.
 
 ## Open Source Contributions
 
-Recently merged upstream, newest first.
-
 <!-- UPSTREAM-PRS:START -->
-| Project | Merged contribution |
-| :--- | :--- |
-| **AgentMemory** | Stop demo-owned Compose workers on Windows [#1688](https://github.com/rohitg00/agentmemory/pull/1688) |
-| **Litestream** | Handle IPv6 hosts without an explicit port [#1617](https://github.com/benbjohnson/litestream/pull/1617) |
-| **Pydantic AI** | Fix the Gemini command in the structured output example [#12681](https://github.com/pydantic/pydantic-ai/pull/12681) |
-| **Fjall** | Track size&#95;of reads in optimistic transactions [#346](https://github.com/fjall-rs/fjall/pull/346) |
+- **[Fjall #346](https://github.com/fjall-rs/fjall/pull/346)** · Added `size_of` reads to optimistic conflict tracking to prevent write skew.
+- **[AgentMemory #1688](https://github.com/rohitg00/agentmemory/pull/1688)** · Stopped demo-owned Compose workers on Windows and added a smoke test for leaked processes and listeners.
+- **[Litestream #1617](https://github.com/benbjohnson/litestream/pull/1617)** · Fixed IPv6 bracket handling for SFTP hosts that omit the port.
+- **[Pydantic AI #12681](https://github.com/pydantic/pydantic-ai/pull/12681)** · Updated the structured-output example to use a provider-qualified Gemini model ID.
 <!-- UPSTREAM-PRS:END -->
 
 [All upstream PRs](https://github.com/search?q=is%3Apr+is%3Apublic+author%3AMike-Animal-Counseling+-user%3AMike-Animal-Counseling&type=pullrequests)
 
 ## Skill Set
 
-| Area | Core stack |
-| :--- | :--- |
-| **Backend & data** | Python / FastAPI · TypeScript / Express · PostgreSQL · OAuth 2.0 |
-| **Web & desktop** | React / Next.js · Rust / Tauri |
-| **Applied ML & retrieval** | PyTorch · pgvector · MCP |
-| **Cloud & delivery** | AWS Lambda / CloudWatch · Docker · GitHub Actions |
-| **Verification** | Playwright · pytest · Vitest |
+**Backend & data** · Python, TypeScript, FastAPI, Node.js, PostgreSQL\
+**Systems & delivery** · Rust, Tauri, AWS Lambda, CloudWatch, Docker, GitHub Actions\
+**Applications & testing** · React, Next.js, PyTorch, MCP, Playwright, pytest

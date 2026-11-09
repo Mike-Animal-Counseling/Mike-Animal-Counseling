@@ -16,6 +16,25 @@ const projectNames = {
   'fjall-rs/fjall': 'Fjall',
 };
 
+const featuredPullRequests = [
+  {
+    url: 'https://github.com/fjall-rs/fjall/pull/346',
+    summary: 'Added `size_of` reads to optimistic conflict tracking to prevent write skew.',
+  },
+  {
+    url: 'https://github.com/rohitg00/agentmemory/pull/1688',
+    summary: 'Stopped demo-owned Compose workers on Windows and added a smoke test for leaked processes and listeners.',
+  },
+  {
+    url: 'https://github.com/benbjohnson/litestream/pull/1617',
+    summary: 'Fixed IPv6 bracket handling for SFTP hosts that omit the port.',
+  },
+  {
+    url: 'https://github.com/pydantic/pydantic-ai/pull/12681',
+    summary: 'Updated the structured-output example to use a provider-qualified Gemini model ID.',
+  },
+];
+
 // Keep API-provided titles as text so markup in a title cannot alter the README.
 const plain = value => value.replace(/[&<>|\[\]`*_\\:]/g, char => `&#${char.codePointAt(0)};`);
 const results = new Map();
@@ -31,10 +50,14 @@ for (const item of pages.flatMap(page => page.items)) {
   const title = item.title.replace(/\s+/g, ' ').trim()
     .replace(/^(?:fix|feat|docs|test|chore|refactor|perf|build|ci)(?:\([^)]+\))?!?:\s+/i, '');
   const name = projectNames[repoKey] ?? repo;
+  const featuredIndex = featuredPullRequests.findIndex(entry => entry.url === url);
+  const summary = featuredPullRequests[featuredIndex]?.summary
+    ?? plain(title.charAt(0).toUpperCase() + title.slice(1));
   results.set(url, {
     mergedAt,
     repoKey,
-    row: `| **${plain(name)}** | ${plain(title.charAt(0).toUpperCase() + title.slice(1))} [#${number}](${url}) |`,
+    featuredRank: featuredIndex === -1 ? featuredPullRequests.length : featuredIndex,
+    row: `- **[${plain(name)} #${number}](${url})** · ${summary}`,
   });
 }
 
@@ -43,7 +66,9 @@ if (results.size === 0 || results.size < Math.max(...pages.map(page => page.tota
 }
 
 const rows = [...results.values()]
-  .sort((first, second) => second.mergedAt - first.mergedAt || first.row.localeCompare(second.row, 'en'))
+  .sort((first, second) => first.featuredRank - second.featuredRank
+    || second.mergedAt - first.mergedAt
+    || first.row.localeCompare(second.row, 'en'))
   .slice(0, 4)
   .map(({ row }) => row);
 
@@ -57,10 +82,10 @@ if (startParts.length !== 2 || endParts?.length !== 2 || startParts[0].includes(
   throw new Error('Expected one ordered pair of upstream PR markers');
 }
 
-const updated = `${startParts[0]}${start}\n| Project | Merged contribution |\n| :--- | :--- |\n${rows.join('\n')}\n${end}${endParts[1]}`;
+const updated = `${startParts[0]}${start}\n${rows.join('\n')}\n${end}${endParts[1]}`;
 const activityCards = renderActivityCards([...results.values()]);
 if (readme !== updated) writeFileSync(readmePath, updated, 'utf8');
 for (const { name, svg } of activityCards) {
   writeFileSync(new URL(`../profile/${name}`, import.meta.url), svg, 'utf8');
 }
-console.log(`Prepared ${rows.length} recent PRs and activity data from ${results.size} merged upstream PRs`);
+console.log(`Prepared ${rows.length} selected PRs and activity data from ${results.size} merged upstream PRs`);
