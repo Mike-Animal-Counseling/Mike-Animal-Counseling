@@ -9,9 +9,9 @@
 
 | Project | Engineering highlight |
 | :--- | :--- |
-| **[Truna](https://github.com/Mike-Animal-Counseling/truna-v0)** | Runs approved Playwright checks and captures screenshots, console errors, and network activity for release fixes. |
-| **[PawCompanion](https://github.com/Mike-Animal-Counseling/paw-companion)** | Companion chat and booking prototype with atomic slot reservations and separate guest and partner workflows. |
-| **[LambdaOpt](https://github.com/Mike-Animal-Counseling/aws-lambda-slo-optimizer)** | Uses benchmarks and CloudWatch data to compare AWS Lambda cost against p95/p99 latency targets. |
+| **[Chrono](https://github.com/Mike-Animal-Counseling/chrono-public)** | Pre-launch planning workspace with event-sourced replay, isolated scenario branches, and deterministic delivery forecasts. |
+| **[Porter](https://github.com/Mike-Animal-Counseling/porter)** | Self-hosted MCP project memory with scoped OAuth access, pgvector search, and a human review queue. |
+| **[Codex Halo](https://github.com/Mike-Animal-Counseling/codex-halo)** | Rust and Tauri Windows HUD that parses and deduplicates local Codex logs for quota and per-model usage tracking. |
 
 ## Open Source Contributions
 
