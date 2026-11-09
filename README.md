@@ -10,7 +10,7 @@
 | Project | Engineering highlight |
 | :--- | :--- |
 | **[Chrono](https://github.com/Mike-Animal-Counseling/chrono-public)** | Pre-launch planning workspace with event-sourced replay, isolated scenario branches, and deterministic delivery forecasts. |
-| **[Porter](https://github.com/Mike-Animal-Counseling/porter)** | Self-hosted MCP project memory with scoped OAuth access, pgvector search, and a human review queue. |
+| **[PawCompanion](https://github.com/Mike-Animal-Counseling/paw-companion)** | Consumer companion prototype with atomic slot reservations, separate guest and partner workflows, and a safety review queue. |
 | **[Codex Halo](https://github.com/Mike-Animal-Counseling/codex-halo)** | Rust and Tauri Windows HUD for Codex quotas, with local session-log parsing and deduplicated per-model usage. |
 
 ## Open Source Contributions
