@@ -1,18 +1,35 @@
-# <img src="./profile/profile-mark.svg" width="28" height="28" alt=""> &nbsp; Projects & open source
+# <img src="./profile/profile-mark.svg" width="28" height="28" alt=""> &nbsp; Projects & edge cases
 
-[Projects](#selected-projects) · [Developer Tools](#developer-tools) · [Open Source](#open-source-contributions) · [Stack](#skill-set) · [Activity](https://github.com/Mike-Animal-Counseling#js-contribution-activity)
+I like a green check more when I can see what the browser actually did.
+
+[Projects](#selected-projects) · [Open Source](#open-source-contributions) · [Stack](#skill-set) · [Activity](https://github.com/Mike-Animal-Counseling#js-contribution-activity)
 
 ## Selected Projects
 
-- **[PawCompanion](https://github.com/Mike-Animal-Counseling/paw-companion)** · Pet chat and booking prototype with rolling safety scoring, built with React and Express.
-- **[Truna](https://github.com/Mike-Animal-Counseling/truna-v0)** · Checks launch-critical flows with Playwright and captures browser evidence for repair handoffs.
-- **[Laya × Jev](https://github.com/Mike-Animal-Counseling/laya-jev-lab)** · Helpdesk ticket classification with a Python SDK, a REST API, and Zendesk sync.
-- **[LambdaOpt](https://github.com/Mike-Animal-Counseling/aws-lambda-slo-optimizer)** · Recommends AWS Lambda settings that balance cost and latency using benchmarks and CloudWatch data.
+### 01 · [Truna](https://github.com/Mike-Animal-Counseling/truna-v0)
 
-## Developer Tools
+A launch verifier for AI-built apps. It turns requirements into reviewable Playwright plans and captures screenshots, console errors, and network activity so release blockers come with evidence and repair instructions.
 
-- **[Codex Halo](https://github.com/Mike-Animal-Counseling/codex-halo)** · Rust and Tauri Windows HUD for Codex quotas, reset times, and locally tracked token usage.
-- **[Porter](https://github.com/Mike-Animal-Counseling/porter)** · Self-hosted project memory over MCP, with PostgreSQL, scoped access, and a review queue.
+*TypeScript · Playwright · Next.js · Prisma*
+
+### 02 · [PawCompanion](https://github.com/Mike-Animal-Counseling/paw-companion)
+
+A prototype that brings AI character chat, pet browsing, and bookings together. The backend tracks time-weighted safety signals and surfaces them in a review queue.
+
+*React · Express · MongoDB*
+
+### 03 · [LambdaOpt](https://github.com/Mike-Animal-Counseling/aws-lambda-slo-optimizer)
+
+A CLI that compares AWS Lambda configurations against p95 and p99 latency targets. It uses CloudWatch data and cold-start signals to explain cost tradeoffs and includes a local simulator.
+
+*Python · boto3 · CloudWatch*
+
+### More projects
+
+- **[Codex Halo](https://github.com/Mike-Animal-Counseling/codex-halo)** · A Rust and Tauri Windows HUD for Codex quotas and reset times. Reads session logs locally for per-model usage and cost estimates.
+- **[Porter](https://github.com/Mike-Animal-Counseling/porter)** · Self-hosted project memory across coding tools. Uses MCP for access and PostgreSQL with pgvector for search, with scoped tokens and a review queue.
+- **[Laya × Jev](https://github.com/Mike-Animal-Counseling/laya-jev-lab)** · Helpdesk ticket classification with a fine-tuned local model or hosted API, a Python SDK, and Zendesk sync.
+- **[HotTopicHub](https://github.com/Mike-Animal-Counseling/hot-topic-hub)** · Turns developer feeds into a daily reading list with FastAPI, community ranking, deduplication, and per-source caps.
 
 ## Open Source Contributions
 
@@ -31,6 +48,7 @@ Recently merged upstream, newest first.
 
 ## Skill Set
 
-**Backend & data** · Python, FastAPI, Node.js, PostgreSQL  
-**Systems & tooling** · TypeScript, Rust, Tauri, Playwright  
-**Cloud & AI** · AWS Lambda, Docker, PyTorch, MCP
+**Backend** · Python, FastAPI, TypeScript, Node.js, Express  
+**Data & AI** · PostgreSQL, MongoDB, pgvector, PyTorch, MCP  
+**Systems & delivery** · Rust, Tauri, Docker, AWS Lambda, CloudWatch  
+**Verification** · Playwright, pytest, GitHub Actions
