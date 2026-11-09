@@ -5,8 +5,6 @@
   <img src="./profile/source-cover.svg" alt="Projects &amp; open source">
 </picture>
 
-[Work](#engineering-highlights) · [Open Source](#open-source-contributions) · [Skill Set](#skill-set) · [Activity](https://github.com/Mike-Animal-Counseling#js-contribution-activity)
-
 ## Engineering Highlights
 
 | Area | Work |
