@@ -1,10 +1,4 @@
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./profile/header-original-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="./profile/header-original-light.svg">
-  <img src="./profile/header-original-light.svg" alt="Mike — Useful ideas. Working software." width="1100">
-</picture>
-
-**Explore widely. Build with purpose.**
+# <img src="./profile/profile-mark.svg" width="28" height="28" alt=""> &nbsp; Projects & open source
 
 [Projects](#selected-projects) · [Developer Tools](#developer-tools) · [Open Source](#open-source-contributions) · [Stack](#skill-set) · [Activity](https://github.com/Mike-Animal-Counseling#js-contribution-activity)
 
