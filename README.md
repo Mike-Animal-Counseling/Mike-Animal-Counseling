@@ -6,7 +6,7 @@ I build practical tools and backend systems, with a focus on correctness, observ
 
 ## Selected Projects
 
-**[Chrono](https://github.com/Mike-Animal-Counseling/chrono-public)** · Preview\
+**[Chrono](https://github.com/Mike-Animal-Counseling/chrono-public)**\
 Event-sourced project planning with timeline replay, isolated scenarios, and deterministic delivery forecasts.
 
 **[PawCompanion](https://github.com/Mike-Animal-Counseling/paw-companion)**\
