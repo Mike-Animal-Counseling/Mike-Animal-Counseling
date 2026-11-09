@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="336" viewBox="0 0 480 336" role="img" aria-labelledby="title description">
+  <title id="title">Upstream activity</title>
+  <desc id="description">4 merged public pull requests. Across 4 repositories. Last merged Nov 8, 2026. Aug 2026: 0; Sep 2026: 0; Oct 2026: 0; Nov 2026: 4.</desc>
+  <rect x="0.5" y="0.5" width="479" height="335" rx="12" fill="#F5F2FA" stroke="#D8CFE5"/>
+  <g font-family="system-ui, -apple-system, Segoe UI, sans-serif">
+    <text x="32" y="45" fill="#6A45AB" font-size="19" font-weight="650">Upstream activity</text>
+    <text x="32" y="112" fill="#241B33" font-family="Georgia, serif" font-size="65">4</text>
+      <text x="177" y="82" fill="#241B33" font-size="22" font-weight="650">Merged pull requests</text>
+      <text x="177" y="111" fill="#594D69" font-size="18">Across 4 repositories</text>
+      <line x1="32" x2="448" y1="134" y2="134" stroke="#D8CFE5"/>
+    <text x="32" y="168" fill="#241B33" font-size="19" font-weight="650">Merged by month</text>
+    <text x="448" y="168" fill="#594D69" font-size="17" text-anchor="end">Aug – Nov 2026</text>
+    <line x1="32" x2="448" y1="278" y2="278" stroke="#D8CFE5"/>
+      <circle cx="84" cy="278" r="3" fill="#D8CFE5"/>
+      <text x="84" y="305" fill="#594D69" font-size="20" text-anchor="middle">Aug</text>
+      <circle cx="188" cy="278" r="3" fill="#D8CFE5"/>
+      <text x="188" y="305" fill="#594D69" font-size="20" text-anchor="middle">Sep</text>
+      <circle cx="292" cy="278" r="3" fill="#D8CFE5"/>
+      <text x="292" y="305" fill="#594D69" font-size="20" text-anchor="middle">Oct</text>
+      <rect x="374" y="200" width="44" height="78" rx="4" fill="#6A45AB"/>
+      <text x="396" y="191" fill="#6A45AB" font-size="17" font-weight="650" text-anchor="middle">4</text>
+      <text x="396" y="305" fill="#594D69" font-size="20" text-anchor="middle">Nov</text>
+  </g>
+</svg>

@@ -1,4 +1,5 @@
 import { readFileSync, writeFileSync } from 'node:fs';
+import { renderActivityCards } from './render-upstream-activity.mjs';
 
 const owner = process.env.PROFILE_OWNER?.toLowerCase();
 if (!owner) throw new Error('PROFILE_OWNER is required');
@@ -26,11 +27,13 @@ for (const item of pages.flatMap(page => page.items)) {
     throw new Error('Unexpected item in the merged upstream PR search');
   }
   const [, upstreamOwner, repo, number] = match;
+  const repoKey = `${upstreamOwner}/${repo}`.toLowerCase();
   const title = item.title.replace(/\s+/g, ' ').trim()
     .replace(/^(?:fix|feat|docs|test|chore|refactor|perf|build|ci)(?:\([^)]+\))?!?:\s+/i, '');
-  const name = projectNames[`${upstreamOwner}/${repo}`.toLowerCase()] ?? repo;
+  const name = projectNames[repoKey] ?? repo;
   results.set(url, {
     mergedAt,
+    repoKey,
     row: `- **${plain(name)}** — ${plain(title.charAt(0).toUpperCase() + title.slice(1))} [#${number}](${url})`,
   });
 }
@@ -55,5 +58,9 @@ if (startParts.length !== 2 || endParts?.length !== 2 || startParts[0].includes(
 }
 
 const updated = `${startParts[0]}${start}\n${rows.join('\n')}\n${end}${endParts[1]}`;
+const activityCards = renderActivityCards([...results.values()]);
 if (readme !== updated) writeFileSync(readmePath, updated, 'utf8');
-console.log(`Prepared ${rows.length} recent merged upstream PRs`);
+for (const { name, svg } of activityCards) {
+  writeFileSync(new URL(`../profile/${name}`, import.meta.url), svg, 'utf8');
+}
+console.log(`Prepared ${rows.length} recent PRs and activity data from ${results.size} merged upstream PRs`);

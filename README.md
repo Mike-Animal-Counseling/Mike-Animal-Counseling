@@ -18,10 +18,8 @@
 ## Activity
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./profile/stats-dark.svg">
-  <img src="./profile/stats.svg" alt="Public GitHub activity">
-</picture>
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./profile/top-langs-dark.svg">
-  <img src="./profile/top-langs.svg" alt="Languages across public repositories">
+  <source media="(max-width: 600px) and (prefers-color-scheme: dark)" srcset="./profile/upstream-activity-compact-dark.svg">
+  <source media="(max-width: 600px)" srcset="./profile/upstream-activity-compact.svg">
+  <source media="(prefers-color-scheme: dark)" srcset="./profile/upstream-activity-dark.svg">
+  <img src="./profile/upstream-activity.svg" alt="Upstream activity: public merged pull requests, repositories, and merges by month">
 </picture>
