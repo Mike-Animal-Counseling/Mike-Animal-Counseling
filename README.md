@@ -6,8 +6,10 @@
 
 | Focus | In practice |
 | :--- | :--- |
+| **Consumer product** | **[PawCompanion](https://github.com/Mike-Animal-Counseling/paw-companion)** is a companion chat and booking prototype. It includes atomic slot reservations, separate guest and partner workflows, and an operator safety queue. |
 | **Release verification** | **[Truna](https://github.com/Mike-Animal-Counseling/truna-v0)** turns product requirements into reviewable Playwright plans. Screenshots, console errors, and network activity give coding agents evidence for repairs. |
 | **Cloud performance** | **[LambdaOpt](https://github.com/Mike-Animal-Counseling/aws-lambda-slo-optimizer)** compares AWS Lambda cost against p95 and p99 latency targets. CloudWatch helps explain cold starts, and a local simulator lets you try the workflow. |
+| **Applied ML** | **[Laya × Jev](https://github.com/Mike-Animal-Counseling/laya-jev-lab)** packages a fine-tuned ticket classifier as a Python SDK and REST API. Workspace-trained adapters can be compared on held-out tickets before activation. |
 | **Agent infrastructure** | **[Porter](https://github.com/Mike-Animal-Counseling/porter)** carries project memory across coding tools through MCP. PostgreSQL and pgvector power search, with scoped tokens and a review queue for writes. |
 
 ## Open Source Contributions
