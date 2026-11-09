@@ -5,14 +5,13 @@
   <img src="./profile/source-cover.svg" alt="Projects &amp; open source">
 </picture>
 
-## Engineering Highlights
+## Selected Projects
 
-| Area | Work |
+| Project | Engineering highlight |
 | :--- | :--- |
-| **Product engineering** | AI companion chat, booking flows, and safety review |
-| **Developer tooling** | Playwright release checks, Windows utilities, and [MCP project memory](https://github.com/Mike-Animal-Counseling/porter) |
-| **Cloud performance** | AWS Lambda benchmarking, cold starts, and p95/p99 latency |
-| **Applied ML** | Ticket classification, model adaptation, and held-out evaluation |
+| **[Truna](https://github.com/Mike-Animal-Counseling/truna-v0)** | Runs approved Playwright checks and captures screenshots, console errors, and network activity for release fixes. |
+| **[PawCompanion](https://github.com/Mike-Animal-Counseling/paw-companion)** | Companion chat and booking prototype with atomic slot reservations and separate guest and partner workflows. |
+| **[LambdaOpt](https://github.com/Mike-Animal-Counseling/aws-lambda-slo-optimizer)** | Uses benchmarks and CloudWatch data to compare AWS Lambda cost against p95/p99 latency targets. |
 
 ## Open Source Contributions
 
@@ -31,12 +30,10 @@ Recently merged upstream, newest first.
 
 ## Skill Set
 
-| Area | Technologies |
+| Area | Core stack |
 | :--- | :--- |
-| **Languages** | Python, TypeScript / JavaScript, Rust, Go, SQL |
-| **Backend & APIs** | FastAPI, Node.js, Express, REST, OAuth 2.0 |
-| **Data & retrieval** | PostgreSQL, SQLite, MongoDB, pgvector |
-| **ML & agents** | PyTorch, Hugging Face Transformers, MCP |
-| **Web & desktop** | React, Next.js, Tauri |
-| **Cloud & delivery** | AWS Lambda, CloudWatch, Docker, GitHub Actions |
-| **Testing** | Playwright, pytest, Vitest |
+| **Backend & data** | Python / FastAPI · TypeScript / Express · PostgreSQL · OAuth 2.0 |
+| **Web & desktop** | React / Next.js · Rust / Tauri |
+| **Applied ML & retrieval** | PyTorch · pgvector · MCP |
+| **Cloud & delivery** | AWS Lambda / CloudWatch · Docker · GitHub Actions |
+| **Verification** | Playwright · pytest · Vitest |
