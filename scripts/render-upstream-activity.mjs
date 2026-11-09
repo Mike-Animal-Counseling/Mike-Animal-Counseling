@@ -1,6 +1,6 @@
 const themes = {
-  light: { paper: '#F3F5EF', ink: '#202A23', muted: '#4F5B50', accent: '#42603F', soft: '#8EA584', line: '#D0D8CB' },
-  dark: { paper: '#1D2721', ink: '#F0F3E9', muted: '#BBC7B8', accent: '#C4D89F', soft: '#88A477', line: '#465648' },
+  light: { paper: '#F5F2FA', ink: '#241B33', muted: '#594D69', accent: '#6A45AB', soft: '#A68BD2', line: '#D8CFE5' },
+  dark: { paper: '#21192C', ink: '#F4EEF9', muted: '#C1B4D1', accent: '#C5A7FB', soft: '#9073BE', line: '#4A3C5B' },
 };
 
 const monthInPacific = new Intl.DateTimeFormat('en-CA', {
@@ -67,7 +67,7 @@ export function renderActivityCards(pullRequests) {
       <text x="177" y="82" fill="${ink}" font-size="22" font-weight="650">Merged pull requests</text>
       <text x="177" y="111" fill="${muted}" font-size="18">${repoLabel}</text>
       <line x1="32" x2="448" y1="134" y2="134" stroke="${line}"/>`
-      : `<text x="32" y="124" fill="${ink}" font-family="Georgia, serif" font-size="${countFont}">${total.toLocaleString('en-US')}</text>
+      : `<text x="32" y="132" fill="${ink}" font-family="Georgia, serif" font-size="${countFont}">${total.toLocaleString('en-US')}</text>
       <text x="32" y="160" fill="${ink}" font-size="19" font-weight="650">Merged pull requests</text>
       <text x="32" y="190" fill="${muted}" font-size="16">${repoLabel}</text>
       <text x="32" y="213" fill="${muted}" font-size="14">Last merged ${date}</text>
@@ -88,6 +88,6 @@ export function renderActivityCards(pullRequests) {
   </g>
 </svg>
 `;
-    return { name, svg, description };
+    return { name, svg };
   }));
 }
