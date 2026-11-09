@@ -1,6 +1,6 @@
 # 主页维护
 
-主页按 Developer Tools、Open Source Contributions、Selected Projects 和 Skill Set 分组。顶部的 Activity 直达 GitHub 原生贡献区。
+主页沿用最初的蓝色封面、Selected Projects、Developer Tools 和 Skill Set 排版。Open Source Contributions 接在项目区后面。顶部的 Activity 直达 GitHub 原生贡献区。
 
 ## 刷新上游贡献
 
