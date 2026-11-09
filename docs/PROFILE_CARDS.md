@@ -1,6 +1,6 @@
 # 主页维护
 
-主页用蓝色代码图标和 Projects & edge cases 标题开头。Selected Projects 包含三个短案例和其他代表作品，开发工具也在这里。上游贡献和技术栈接在后面。顶部的 Activity 直达 GitHub 原生贡献区。
+主页用蓝色代码图标和 Projects & open source 标题开头。精选项目和开发工具各用一行介绍，上游贡献和技术栈接在后面。顶部的 Activity 直达 GitHub 原生贡献区。
 
 ## 刷新上游贡献
 
