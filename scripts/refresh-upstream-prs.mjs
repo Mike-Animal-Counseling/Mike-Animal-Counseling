@@ -57,7 +57,7 @@ if (startParts.length !== 2 || endParts?.length !== 2 || startParts[0].includes(
   throw new Error('Expected one ordered pair of upstream PR markers');
 }
 
-const updated = `${startParts[0]}${start}\n| Project | Merged contribution |\n| --- | --- |\n${rows.join('\n')}\n${end}${endParts[1]}`;
+const updated = `${startParts[0]}${start}\n| Project | Merged contribution |\n| :--- | :--- |\n${rows.join('\n')}\n${end}${endParts[1]}`;
 const activityCards = renderActivityCards([...results.values()]);
 if (readme !== updated) writeFileSync(readmePath, updated, 'utf8');
 for (const { name, svg } of activityCards) {
