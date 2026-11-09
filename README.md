@@ -35,7 +35,7 @@ A Windows tray app that opens a break window while Codex works and brings you ba
 ## Selected Projects
 
 - **[Laya × Jev](https://github.com/Mike-Animal-Counseling/laya-jev-lab)** — Helpdesk ticket classification with local models, an API, and a shared inbox.
-- **[PawCompanion](https://github.com/Mike-Animal-Counseling/paw-companion)** — A pet companion prototype with AI chat, bookings, and safety scoring.
+- **[PawCompanion](https://github.com/Mike-Animal-Counseling/paw-companion)** — A digital pet companion with authored personalities and home, walk, and café visits.
 - **[HotTopicHub](https://github.com/Mike-Animal-Counseling/hot-topic-hub)** — A daily reading list built from developer news and community signals.
 - **[LambdaOpt](https://github.com/Mike-Animal-Counseling/aws-lambda-slo-optimizer)** — AWS Lambda cost recommendations against latency targets. In beta.
 
@@ -50,11 +50,11 @@ A Windows tray app that opens a break window while Codex works and brings you ba
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="./profile/stats-dark.svg">
-  <img src="./profile/stats.svg" alt="Public GitHub activity" height="195">
+  <img src="./profile/stats.svg" alt="Public GitHub activity">
 </picture>
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="./profile/top-langs-dark.svg">
-  <img src="./profile/top-langs.svg" alt="Languages across public repositories" height="195">
+  <img src="./profile/top-langs.svg" alt="Languages across public repositories">
 </picture>
 
 <sub>Public activity and repository languages · refreshed weekly</sub>
