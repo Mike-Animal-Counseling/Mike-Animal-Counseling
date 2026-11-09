@@ -19,19 +19,19 @@ const projectNames = {
 const featuredPullRequests = [
   {
     url: 'https://github.com/fjall-rs/fjall/pull/346',
-    summary: 'Added `size_of` reads to optimistic conflict tracking to prevent write skew.',
+    summary: 'Prevented write skew by tracking `size_of` reads in optimistic transactions.',
   },
   {
     url: 'https://github.com/rohitg00/agentmemory/pull/1688',
-    summary: 'Stopped demo-owned Compose workers on Windows and added a smoke test for leaked processes and listeners.',
+    summary: 'Fixed Windows demo Compose cleanup and added a teardown smoke test.',
   },
   {
     url: 'https://github.com/benbjohnson/litestream/pull/1617',
-    summary: 'Fixed IPv6 bracket handling for SFTP hosts that omit the port.',
+    summary: 'Fixed IPv6 bracket handling for SFTP URLs with no port.',
   },
   {
     url: 'https://github.com/pydantic/pydantic-ai/pull/12681',
-    summary: 'Updated the structured-output example to use a provider-qualified Gemini model ID.',
+    summary: 'Corrected the Gemini model ID in the structured-output example.',
   },
 ];
 
