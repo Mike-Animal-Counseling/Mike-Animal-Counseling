@@ -1,6 +1,6 @@
 # 主页维护
 
-主页采用简洁的作品集排版：封面、已合并开源贡献、开发工具、精选项目、核心技术和 Activity。
+主页由封面、已合并开源贡献、精选项目和 Activity 组成。精选项目分为开发工具与应用及基础设施，核心技术合并为一行。
 
 - 不设顶部目录；每个项目只保留一个仓库入口。项目截图、Demo、下载和部署说明放在各自仓库。
 - 开源贡献每项只链接对应 PR，不重复链接项目仓库；保留一个公开上游 PR 搜索入口。
@@ -23,4 +23,4 @@ README 不控制 GitHub 自带的贡献图和时间线。个人主页贡献图�
 
 ## 排版参考
 
-参考 [Anurag Hazra 的主页](https://github.com/anuraghazra/anuraghazra)的简短介绍和重点内容组织，以及 [Editorial Card](https://github.com/beydemirfurkan/awesome-github-profile/tree/main/templates/01-minimal/editorial-card)的简洁段落层级。文案与封面均为本主页单独编写，未复制模板代码。
+从 [Awesome GitHub Profile README](https://github.com/abhisheknaiidu/awesome-github-profile-readme) 中选取 [Anurag Hazra 的主页](https://github.com/anuraghazra/anuraghazra) 作为结构参考，将精选项目与 GitHub 统计分开。开源贡献前置，项目沿用简短的 Markdown 列表。

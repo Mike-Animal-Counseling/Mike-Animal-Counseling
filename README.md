@@ -7,41 +7,29 @@
 
 ## Open Source Contributions
 
-Selected fixes and documentation merged upstream.
+- **Litestream** — Fixed IPv6 hosts without a port in SFTP replica URLs. [#1617](https://github.com/benbjohnson/litestream/pull/1617)
+- **Fjall** — Fixed `size_of` read tracking in optimistic transactions. [#346](https://github.com/fjall-rs/fjall/pull/346)
+- **Pydantic AI** — Corrected the Gemini command in the structured output example. [#12681](https://github.com/pydantic/pydantic-ai/pull/12681)
 
-- **Litestream** — IPv6 handling for SFTP replica URLs. [#1617](https://github.com/benbjohnson/litestream/pull/1617)
-- **Fjall** — Read tracking in optimistic transactions. [#346](https://github.com/fjall-rs/fjall/pull/346)
-- **Pydantic AI** — Gemini structured-output example. [#12681](https://github.com/pydantic/pydantic-ai/pull/12681)
-
-[All upstream contributions](https://github.com/search?q=is%3Apr+is%3Apublic+author%3AMike-Animal-Counseling+-user%3AMike-Animal-Counseling&type=pullrequests)
-
-## Developer Tools
-
-**[Truna](https://github.com/Mike-Animal-Counseling/truna-v0)**  
-Browser-based launch verification for AI-built apps, with evidence and repair handoffs for coding agents.
-
-**[Codex Halo](https://github.com/Mike-Animal-Counseling/codex-halo)**  
-A Windows companion for Codex usage limits, local token analytics, and cost estimates.
-
-**[Porter](https://github.com/Mike-Animal-Counseling/porter)**  
-Self-hosted memory that carries project context across AI coding tools through MCP. In alpha.
-
-**[AgentFocus](https://github.com/Mike-Animal-Counseling/agent-focus)**  
-A Windows tray app that opens a break window while Codex works and brings you back for approvals and results.
+[All upstream PRs](https://github.com/search?q=is%3Apr+is%3Apublic+author%3AMike-Animal-Counseling+-user%3AMike-Animal-Counseling&type=pullrequests)
 
 ## Selected Projects
 
-- **[Laya × Jev](https://github.com/Mike-Animal-Counseling/laya-jev-lab)** — Helpdesk ticket classification with local models, an API, and a shared inbox.
-- **[PawCompanion](https://github.com/Mike-Animal-Counseling/paw-companion)** — A digital pet companion with authored personalities and home, walk, and café visits.
+### Developer Tools
+
+- **[Truna](https://github.com/Mike-Animal-Counseling/truna-v0)** — Verifies AI-built apps in a browser and reports what needs fixing.
+- **[Codex Halo](https://github.com/Mike-Animal-Counseling/codex-halo)** — A Windows HUD for Codex usage limits, token history, and cost estimates.
+- **[Porter](https://github.com/Mike-Animal-Counseling/porter)** — Self-hosted project memory shared across coding tools through MCP.
+- **[AgentFocus](https://github.com/Mike-Animal-Counseling/agent-focus)** — A Windows tray app for Codex approval prompts and session handoffs.
+
+### Applications and Infrastructure
+
+- **[Laya × Jev](https://github.com/Mike-Animal-Counseling/laya-jev-lab)** — Helpdesk ticket classification with a local model or API and a shared inbox.
+- **[PawCompanion](https://github.com/Mike-Animal-Counseling/paw-companion)** — Digital pets with authored personalities and home, walk, and café visits.
 - **[HotTopicHub](https://github.com/Mike-Animal-Counseling/hot-topic-hub)** — A daily reading list built from developer news and community signals.
-- **[LambdaOpt](https://github.com/Mike-Animal-Counseling/aws-lambda-slo-optimizer)** — AWS Lambda cost recommendations against latency targets. In beta.
+- **[LambdaOpt](https://github.com/Mike-Animal-Counseling/aws-lambda-slo-optimizer)** — Finds AWS Lambda configurations that meet latency targets at lower cost.
 
-## Skill Set
-
-**Languages** · Python, TypeScript, JavaScript, Rust, Go, SQL  
-**Interfaces & services** · React, Next.js, Tauri, FastAPI, Node.js  
-**Data & AI** · PostgreSQL, Redis, PyTorch, pgvector, MCP  
-**Delivery & quality** · AWS, Docker, GitHub Actions, Playwright, pytest
+**Core stack** · TypeScript, Python, Rust, Go, Playwright, Tauri, PostgreSQL, MCP
 
 ## Activity
 
