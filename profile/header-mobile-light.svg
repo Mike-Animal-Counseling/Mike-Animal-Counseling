@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="254" viewBox="0 0 640 254" role="img" aria-labelledby="title desc">
+  <title id="title">Mike. Useful ideas. Working software.</title>
+  <desc id="desc">A compact cover for Mike's projects and open-source contributions.</desc>
+  <g font-family="Segoe UI, Helvetica, Arial, sans-serif">
+    <text x="0" y="32" fill="#0969da" font-size="29" font-weight="600">Mike</text>
+    <g fill="#1f2328" font-size="67" font-weight="650" letter-spacing="-2">
+      <text x="0" y="126">Useful ideas.</text>
+      <text x="0" y="208">Working software.</text>
+    </g>
+  </g>
+</svg>
