@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="120" viewBox="0 0 480 120" role="img" aria-labelledby="title">
+  <title id="title">Workbench</title>
+  <rect width="480" height="120" rx="10" fill="#222C24"/>
+  <text x="32" y="34" fill="#C9DAAB" font-family="ui-monospace, Consolas, monospace" font-size="14" font-weight="600" letter-spacing="2.5">PROJECT INDEX</text>
+  <text x="30" y="88" fill="#F3F1E8" font-family="Georgia, serif" font-size="54">Workbench</text>
+  <g transform="translate(339 33)" fill="none" stroke="#839881" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M4 4h26l24 23h38M4 27h32M4 50h26l24-23"/>
+    <circle cx="4" cy="4" r="3" fill="#222C24"/>
+    <circle cx="4" cy="27" r="3" fill="#222C24"/>
+    <circle cx="4" cy="50" r="3" fill="#222C24"/>
+    <circle cx="54" cy="27" r="5" fill="#C9DAAB" stroke="#222C24"/>
+    <circle cx="92" cy="27" r="5" fill="#C9DAAB" stroke="#222C24"/>
+  </g>
+</svg>

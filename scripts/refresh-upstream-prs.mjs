@@ -57,8 +57,13 @@ if (startParts.length !== 2 || endParts?.length !== 2 || startParts[0].includes(
   throw new Error('Expected one ordered pair of upstream PR markers');
 }
 
-const updated = `${startParts[0]}${start}\n${rows.join('\n')}\n${end}${endParts[1]}`;
 const activityCards = renderActivityCards([...results.values()]);
+const activityAlt = /(<img src="\.\/profile\/upstream-activity\.svg" alt=")[^"]*(")/;
+if (!activityAlt.test(endParts[1])) throw new Error('Expected an alt attribute on the upstream activity card');
+const afterList = endParts[1].replace(activityAlt, (_, before, after) => (
+  `${before}${activityCards[0].description}${after}`
+));
+const updated = `${startParts[0]}${start}\n${rows.join('\n')}\n${end}${afterList}`;
 if (readme !== updated) writeFileSync(readmePath, updated, 'utf8');
 for (const { name, svg } of activityCards) {
   writeFileSync(new URL(`../profile/${name}`, import.meta.url), svg, 'utf8');
