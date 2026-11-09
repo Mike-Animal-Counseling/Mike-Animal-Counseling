@@ -1,16 +1,20 @@
-# <img src="./profile/profile-mark.svg" width="28" height="28" alt=""> &nbsp; Projects & open source
+<picture>
+  <source media="(max-width: 600px) and (prefers-color-scheme: dark)" srcset="./profile/source-cover-compact-dark.svg">
+  <source media="(max-width: 600px)" srcset="./profile/source-cover-compact.svg">
+  <source media="(prefers-color-scheme: dark)" srcset="./profile/source-cover-dark.svg">
+  <img src="./profile/source-cover.svg" alt="Projects &amp; open source">
+</picture>
 
-[Engineering Highlights](#engineering-highlights) · [Open Source](#open-source-contributions) · [Skill Set](#skill-set) · [Activity](https://github.com/Mike-Animal-Counseling#js-contribution-activity)
+[Work](#engineering-highlights) · [Open Source](#open-source-contributions) · [Skill Set](#skill-set) · [Activity](https://github.com/Mike-Animal-Counseling#js-contribution-activity)
 
 ## Engineering Highlights
 
-| Focus | In practice |
+| Area | Work |
 | :--- | :--- |
-| **Consumer product** | **[PawCompanion](https://github.com/Mike-Animal-Counseling/paw-companion)** is a companion chat and booking prototype. It includes atomic slot reservations, separate guest and partner workflows, and an operator safety queue. |
-| **Release verification** | **[Truna](https://github.com/Mike-Animal-Counseling/truna-v0)** turns product requirements into reviewable Playwright plans. Screenshots, console errors, and network activity give coding agents evidence for repairs. |
-| **Cloud performance** | **[LambdaOpt](https://github.com/Mike-Animal-Counseling/aws-lambda-slo-optimizer)** compares AWS Lambda cost against p95 and p99 latency targets. CloudWatch helps explain cold starts, and a local simulator lets you try the workflow. |
-| **Applied ML** | **[Laya × Jev](https://github.com/Mike-Animal-Counseling/laya-jev-lab)** packages a fine-tuned ticket classifier as a Python SDK and REST API. Workspace-trained adapters can be compared on held-out tickets before activation. |
-| **Agent infrastructure** | **[Porter](https://github.com/Mike-Animal-Counseling/porter)** carries project memory across coding tools through MCP. PostgreSQL and pgvector power search, with scoped tokens and a review queue for writes. |
+| **Product engineering** | AI companion chat, booking flows, and safety review |
+| **Developer tooling** | Playwright release checks, Windows utilities, and [MCP project memory](https://github.com/Mike-Animal-Counseling/porter) |
+| **Cloud performance** | AWS Lambda benchmarking, cold starts, and p95/p99 latency |
+| **Applied ML** | Ticket classification, model adaptation, and held-out evaluation |
 
 ## Open Source Contributions
 
