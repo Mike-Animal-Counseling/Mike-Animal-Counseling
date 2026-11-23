@@ -18,20 +18,20 @@ const projectNames = {
 
 const featuredPullRequests = [
   {
+    url: 'https://github.com/benbjohnson/litestream/pull/1620',
+    summary: 'Prevented stale SQLite WAL files from affecting restored data.',
+  },
+  {
     url: 'https://github.com/fjall-rs/fjall/pull/346',
-    summary: 'Prevented write skew by tracking `size_of` reads in optimistic transactions.',
+    summary: 'Prevented write skew by tracking value-size reads in optimistic transactions.',
   },
   {
-    url: 'https://github.com/rohitg00/agentmemory/pull/1688',
-    summary: 'Fixed Windows demo Compose cleanup and added a teardown smoke test.',
+    url: 'https://github.com/rohitg00/agentmemory/pull/1721',
+    summary: 'Fixed recall queries that dropped valid results when filters were applied after the candidate limit.',
   },
   {
-    url: 'https://github.com/benbjohnson/litestream/pull/1617',
-    summary: 'Fixed IPv6 bracket handling for SFTP URLs with no port.',
-  },
-  {
-    url: 'https://github.com/pydantic/pydantic-ai/pull/12681',
-    summary: 'Corrected the Gemini model ID in the structured-output example.',
+    url: 'https://github.com/msgspec/msgspec/pull/1337',
+    summary: 'Made malformed YAML dates, times, and integers raise `DecodeError`.',
   },
 ];
 
